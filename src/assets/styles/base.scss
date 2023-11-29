@@ -26,10 +26,31 @@ main {
 
 h1 {
   font-size: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
   font-size: 1.5rem;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
 }
 
 .text-right {
